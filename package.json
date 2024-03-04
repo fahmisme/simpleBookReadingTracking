@@ -1,10 +1,10 @@
 {
-  "name": "simpledappz",
-  "version": "1.0.4",
-  "description": "Simple dapps created to make it easier for beginners who are entering the blockchain ecosystem for the first time.",
+  "name": "simpleBookReadingTracking",
+  "version": "1.0.0",
+  "description": "Implemented simple CRUD to display the currently read book. You can add a list of new books, you can also delete or update your reading status.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
@@ -13,15 +13,14 @@
   "author": "Fahmi Idris",
   "license": "ISC",
   "dependencies": {
-    "ethers": "5.7.2",
-    "express": "^4.18.2"
+    "simpledappz": "^1.0.6"
   },
+  "type": "module",
   "devDependencies": {
-    "webpack": "^5.90.3",
-    "webpack-cli": "^5.1.4",
-    "chalk": "^5.3.0",
-    "commander": "^12.0.0",
-    "fs-extra": "^11.2.0"
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "babel-loader": "^9.1.3",
+    "webpack-cli": "^5.1.4"
   },
   "repository": {
     "type": "git",

@@ -1,24 +1,19 @@
 # simpleDAPPz
-- Description: SimpleDappz created to make it easier for beginners who are entering the blockchain ecosystem for the first time 😊. It's applications just for create one sentence of quote or note.
+- Description: Implemented simple CRUD to display the currently read book. You can add a list of new books, you can also delete or update your reading status 😊. 
 - Demo: soon.
 
 ## About Smart Contract
 - I running smart contract using [remix.ethereum.org](https://remix.ethereum.org)
 - I use sepolia for testnet
-- Im not interest to upload my smart contract code 😝 
-- Why? You can find the answer in below sections (I hope 🤐) 
 
 ## Little bit anatomy
 - You can find my **contractAddress** and **contractABI** at *public/module.js*
-- If you interest to replace my contract address with your own, don't forget to compile it with ==npx webpack==
-- To looks all transaction on my **contractAddress** jump into [it](https://sepolia.etherscan.io/address/0x78ca25ea6c99366772be3a9869b12b0e7ace5409)
-- At that link, you can see my contract source code 🤫
-- More than this, you can see the currently active quote or note and can change it (But, don't write strange things 😒)
+- If you interest to replace my contract address with your own, don't forget to compile it with ==webpack==
 
 ## How to running
 - npm install simpledappz
 - npx simpledappz init
-- npm run dev
+- node index.js
 - Open your browser [http://localhost:3000](http://localhost:3000)
 - Cheers 🍻
 
