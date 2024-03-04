@@ -1,5 +1,5 @@
 {
-  "name": "simpleBookReadingTracking",
+  "name": "bookreadingtracking",
   "version": "1.0.0",
   "description": "Implemented simple CRUD to display the currently read book. You can add a list of new books, you can also delete or update your reading status.",
   "type": "module",
