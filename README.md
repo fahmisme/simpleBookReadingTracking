@@ -1,4 +1,4 @@
-# simpleDAPPz
+# simpleBookReadingTracking
 - Description: Implemented simple CRUD to display the currently read book. You can add a list of new books, you can also delete or update your reading status 😊. 
 - Demo: soon.
 
