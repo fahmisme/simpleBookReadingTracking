@@ -1,26 +1,19 @@
-// webpack.config.js
 const path = require('path');
 
 module.exports = {
- mode: 'development',
- entry: './public/module.js', // Adjust the path to your entry point
- output: {
-    path: path.resolve(__dirname, 'dist'),
+  mode: 'development',
+  entry: './src/main.js',
+  output: {
     filename: 'bundle.js',
- },
- experiments: {
-    outputModule: true, // Enable support for ES module output
- },
- module: {
+    path: path.resolve(__dirname, 'dist'),
+  },
+  module: {
     rules: [
       {
-        test: /\.m?js$/,
+        test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader', // Use babel-loader to transpile ES module syntax
-          options: {
-            presets: ['@babel/preset-env'],
-          },
+          loader: 'babel-loader',
         },
       },
     ],
